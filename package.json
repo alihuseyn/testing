@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest .",
+    "runtime-test": "jest test_runtime*",
+    "async-test": "jest test_async_sync_call.spec.js",
+    "data-driven": "jest test_data_driven.spec.js",
+    "isolated": "jest test_isolated.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

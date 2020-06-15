@@ -1,0 +1,34 @@
+ PASS  ./test_runtime_cycle.spec.js
+  Test math funtions
+    √ Should return summation of 3 and 5 as 8 (5 ms)
+    √ Should return pow of 3 to 3 as 27 (2 ms)
+
+  console.log
+    [beforeAll] Called before all tests
+
+      at Object.<anonymous> (test_runtime_cycle.spec.js:4:13)
+
+  console.log
+    [beforeEach] Called before each test
+
+      at Object.<anonymous> (test_runtime_cycle.spec.js:8:13)
+
+  console.log
+    [afterEach] Called after each test
+
+      at Object.<anonymous> (test_runtime_cycle.spec.js:31:13)
+
+  console.log
+    [beforeEach] Called before each test
+
+      at Object.<anonymous> (test_runtime_cycle.spec.js:8:13)
+
+  console.log
+    [afterEach] Called after each test
+
+      at Object.<anonymous> (test_runtime_cycle.spec.js:31:13)
+
+  console.log
+    [afterAll] Called after all tests
+
+      at Object.<anonymous> (test_runtime_cycle.spec.js:35:13)
